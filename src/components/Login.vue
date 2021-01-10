@@ -26,8 +26,8 @@
       >
     </b-form>
     <p class="forgot-password text-right mt-2 mb-4">
-      Vous avez déjà un compte ?
-      <router-link to="/signup">Se connecter</router-link>
+      Vous n'avez pas de compte ?
+      <router-link to="/signup">Créer un compte</router-link>
     </p>
 
     <p class="forgot-password text-right mt-2 mb-4">
