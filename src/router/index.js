@@ -8,21 +8,58 @@ const routes = [
   {
     path: "/",
     name: "Home",
-    component: Home
+    component: Home,
   },
   {
-    path: "/about",
-    name: "About",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/About.vue")
-  }
+    path: "/login",
+    name: "Login",
+    component: () => import(/* webpackChunkName: "about" */ "../components/Login.vue"),
+  },
+  {
+    path: "/signup",
+    name: "Signup",
+    component: () => import(/* webpackChunkName: "about" */ "../components/Signup.vue"),
+  },
+  {
+    path: "/users",
+    name: "users",
+    component: () => import("../components/ListUserComponent"),
+  },
+  {
+    path: "/editUser/:id",
+    name: "editUser",
+    component: () => import("../components/EditUserComponent"),
+  },
+  {
+    path: "/cart",
+    name: "cart",
+    component: () => import(/* webpackChunkName: "about" */ "../components/Cart.vue"),
+  },
+  {
+    path: "/createProduct",
+    name: "createProduct",
+    component: () => import("../components/CreateProductComponent"),
+  },
+  {
+    path: "/createCategory",
+    name: "createCategory",
+    component: () => import("../components/CreateCategoryComponent"),
+  },
+  {
+    path: "/editProduct/:id",
+    name: "editProduct",
+    component: () => import("../components/EditProductComponent"),
+  },
+  {
+    path: "/viewProduct/:id",
+    name: "viewProduct",
+    component: () => import("../components/ViewProductComponent"),
+  },
 ];
 
 const router = new VueRouter({
-  routes
+  mode: "history",
+  routes,
 });
 
 export default router;
