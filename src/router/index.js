@@ -41,11 +41,6 @@ const routes = [
     component: () => import("../components/CreateProductComponent"),
   },
   {
-    path: "/createCategory",
-    name: "createCategory",
-    component: () => import("../components/CreateCategoryComponent"),
-  },
-  {
     path: "/editProduct/:id",
     name: "editProduct",
     component: () => import("../components/EditProductComponent"),

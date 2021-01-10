@@ -169,11 +169,6 @@
                 >Ajouter Produit</router-link
               ></b-dropdown-item
             >
-            <b-dropdown-item>
-              <router-link class="nav-link" to="createCategory"
-                >Ajouter Catégorie</router-link
-              ></b-dropdown-item
-            >
             <b-dropdown-item
               ><router-link class="nav-link" to="users"
                 >Gestion des utilisateurs</router-link
