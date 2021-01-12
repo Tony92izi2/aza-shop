@@ -11,9 +11,10 @@
       </b-form-group>
       <b-form-group label="Type de produit">
                     <select name="productTypes" id="cars" class="form-control"  v-model="product.type" required>
-                   <optgroup label="Téléphones Tablettes & Gadgets">
-                        <option value="Lait-Sucre">Iphone</option>
-                        <option value="Riz-Pâtes">Galaxy</option>
+                   <optgroup label="Téléphones & Gadgets">
+                        <option value="Téléphones">Téléphones</option>
+                        <option value="Tablettes">Tablettes</option>
+                        <option value="Tablettes">Accessoires</option>
                     </optgroup>
                     <optgroup label="Alimentation">
                         <option value="Boisson eau et jus">Boisson, eau & jus</option>
@@ -58,7 +59,10 @@
                         <option value="Ordinateur portable">Ordinateur portable</option>
                         <option value="Ordinateur fixe">Ordinateur fixe</option>
                     </optgroup>
-                    <optgroup label="Smartphones, Tablettes & Gadgets">
+                    <optgroup label="Téléphones & Gadgets">
+                        <option value="Téléphones">Téléphones</option>
+                        <option value="Tablettes">Tablettes</option>
+                        <option value="Tablettes">Accessoires</option>
                    </optgroup>
                     <optgroup label="Sports & Loisirs">
                     </optgroup>

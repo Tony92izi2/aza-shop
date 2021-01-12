@@ -13,14 +13,50 @@
           <li class="nav-item">
             <router-link class="nav-link" to="products">Produits</router-link>
           </li>
-
-          <li class="nav-item">
-            <router-link class="nav-link" to="telephonie"
-              >Téléphonie</router-link
-            >
-          </li>
-
-          <b-nav-item-dropdown id="dropdown-1" text="Alimentation">
+ <b-nav-item-dropdown id="dropdown-1" text="Téléphones & Gadgets">
+            <b-dropdown-item>
+              <b-nav-item-dropdown
+                id="dropdown-2"
+                text="Téléphones"
+                dropright
+              >
+                <b-dropdown-item>Iphone</b-dropdown-item>
+                <b-dropdown-item>Samsung</b-dropdown-item>
+                <b-dropdown-item>Techno</b-dropdown-item>
+                <b-dropdown-item>Nokia</b-dropdown-item>
+                <b-dropdown-item>Huawei</b-dropdown-item>
+                <b-dropdown-item>Autres</b-dropdown-item>
+                
+              </b-nav-item-dropdown>
+            </b-dropdown-item>
+            <b-dropdown-item>
+              <b-nav-item-dropdown
+                id="dropdown-2"
+                text="Tablettes"
+                dropright
+              >
+                <b-dropdown-item>Tablettes Educatives</b-dropdown-item>
+                <b-dropdown-item>Nos Tablettes</b-dropdown-item>
+              </b-nav-item-dropdown>
+            </b-dropdown-item>
+            <b-dropdown-item>
+              <b-nav-item-dropdown
+                id="dropdown-2"
+                text="Accessoires"
+                dropright
+              >
+                <b-dropdown-item>Airpods</b-dropdown-item>
+                <b-dropdown-item>Powerbanks</b-dropdown-item>
+                <b-dropdown-item>Ecouteurs</b-dropdown-item>
+                <b-dropdown-item>Casques</b-dropdown-item>
+                <b-dropdown-item>Chargeurs et Câbles</b-dropdown-item>
+                <b-dropdown-item>Pochettes pour Téléphones</b-dropdown-item>
+                
+              </b-nav-item-dropdown>
+            </b-dropdown-item>
+          </b-nav-item-dropdown>
+          
+           <b-nav-item-dropdown id="dropdown-1" text="Alimentation">
             <b-dropdown-item>Boisson</b-dropdown-item>
             <b-dropdown-item>Boites de conserve</b-dropdown-item>
             <b-dropdown-item>Charcuterie</b-dropdown-item>
@@ -29,6 +65,7 @@
             <b-dropdown-item>Riz-Pâtes</b-dropdown-item>
             <b-dropdown-item>Santé & Beauté</b-dropdown-item>
           </b-nav-item-dropdown>
+
 
           <b-nav-item-dropdown id="dropdown-1" text="Electroménagers">
             <b-dropdown-item>
@@ -45,6 +82,7 @@
                 <b-dropdown-item>Téléviseurs</b-dropdown-item>
                 <b-dropdown-item>Ustensiles de cuisine</b-dropdown-item>
                 <b-dropdown-item>Ventilateurs</b-dropdown-item>
+                <b-dropdown-item>Humidificateurs</b-dropdown-item>
               </b-nav-item-dropdown>
             </b-dropdown-item>
             <b-dropdown-item>
@@ -54,47 +92,94 @@
                 dropright
               >
                 <b-dropdown-item>Permutateur de Menu</b-dropdown-item>
-                <b-dropdown-item>Appareil photo</b-dropdown-item>
-                <b-dropdown-item>Chauffe eau-Bouilloire</b-dropdown-item>
-                <b-dropdown-item>Fer à repasser</b-dropdown-item>
-                <b-dropdown-item>Machine à café</b-dropdown-item>
+                <b-dropdown-item>Appareil Photo</b-dropdown-item>
+                <b-dropdown-item>Chauffe Eau-Bouilloire</b-dropdown-item>
+                <b-dropdown-item>Fer à Repasser</b-dropdown-item>
+                <b-dropdown-item>Machine à Café</b-dropdown-item>
                 <b-dropdown-item>Mixeur</b-dropdown-item>
-                <b-dropdown-item>Micro onde</b-dropdown-item>
+                <b-dropdown-item>Micro Onde</b-dropdown-item>
                 <b-dropdown-item>Thermos</b-dropdown-item>
+                <b-dropdown-item>Speakers</b-dropdown-item>
               </b-nav-item-dropdown>
             </b-dropdown-item>
           </b-nav-item-dropdown>
 
           <b-nav-item-dropdown id="dropdown-1" text="Informatique">
-            <b-dropdown-item>Ordinateur de bureau</b-dropdown-item>
-            <b-dropdown-item>Ordinateurs portables</b-dropdown-item>
             <b-dropdown-item>
               <b-nav-item-dropdown
                 id="dropdown-2"
-                text="Stockage-Réseau"
+                text="Ordinateurs Portables"
                 dropright
               >
-                <b-dropdown-item>Disque dur-Clé USB-SSD</b-dropdown-item>
-                <b-dropdown-item>Réseau-CPL-NAS-WIFI</b-dropdown-item>
-                <b-dropdown-item>Caméras de surveillance IP</b-dropdown-item>
+                <b-dropdown-item>Dell</b-dropdown-item>
+                <b-dropdown-item>Lenovo</b-dropdown-item>
+                <b-dropdown-item>HP</b-dropdown-item>
+                <b-dropdown-item>Toshiba</b-dropdown-item>
+                <b-dropdown-item>Mac Book</b-dropdown-item>
+                <b-dropdown-item>Autres</b-dropdown-item>
+                
               </b-nav-item-dropdown>
             </b-dropdown-item>
             <b-dropdown-item>
               <b-nav-item-dropdown
                 id="dropdown-2"
-                text="Composants-Périphériques"
+                text="Ordinateurs de Bureau"
                 dropright
               >
-                <b-dropdown-item>Composants</b-dropdown-item>
+                <b-dropdown-item>Dell</b-dropdown-item>
+                <b-dropdown-item>Lenovo</b-dropdown-item>
+                <b-dropdown-item>HP</b-dropdown-item>
+                <b-dropdown-item>Toshiba</b-dropdown-item>
+                <b-dropdown-item>Mac Book</b-dropdown-item>
+                <b-dropdown-item>Autres</b-dropdown-item>
               </b-nav-item-dropdown>
             </b-dropdown-item>
             <b-dropdown-item>
               <b-nav-item-dropdown
                 id="dropdown-2"
-                text="Impression-Bureautique"
+                text="Accessoires"
                 dropright
               >
-                <b-dropdown-item>Imprimantes-Scanners</b-dropdown-item>
+                <b-dropdown-item>Périphériques d'Ordinateurs</b-dropdown-item>
+                <b-dropdown-item>Répétiteur Wifi</b-dropdown-item>
+                <b-dropdown-item>Réseaux</b-dropdown-item>
+                <b-dropdown-item>Routeur Wifi</b-dropdown-item>
+                <b-dropdown-item>Stockages</b-dropdown-item>
+                <b-dropdown-item>Switch Commutateur</b-dropdown-item>
+                
+              </b-nav-item-dropdown>
+            </b-dropdown-item>
+            <b-dropdown-item>
+              <b-nav-item-dropdown
+                id="dropdown-2"
+                text="Imprimantes & Cartouches"
+                dropright
+              >
+                <b-dropdown-item>Imprimantes Lasers</b-dropdown-item>
+                <b-dropdown-item>Imprimantes Multi-Fonctions</b-dropdown-item>
+                <b-dropdown-item>Cartouches d'Encres</b-dropdown-item>
+                <b-dropdown-item>Encres & Consommables</b-dropdown-item>
+                <b-dropdown-item>Photocopieuses</b-dropdown-item>
+                <b-dropdown-item>Scanners</b-dropdown-item>
+                
+              </b-nav-item-dropdown>
+            </b-dropdown-item>
+            <b-dropdown-item>
+              <b-nav-item-dropdown
+                id="dropdown-2"
+                text="Divers"
+                dropright
+              >
+                <b-dropdown-item>Clé USB</b-dropdown-item>
+                <b-dropdown-item>Lecteur de Code Barre</b-dropdown-item>
+                <b-dropdown-item>Onduleur</b-dropdown-item>
+                <b-dropdown-item>VideoProjecteur</b-dropdown-item>
+                <b-dropdown-item>Batteries</b-dropdown-item>
+                <b-dropdown-item>Chargeurs</b-dropdown-item>
+                <b-dropdown-item>Claviers & Souris</b-dropdown-item>
+                <b-dropdown-item>Disques Durs Externes</b-dropdown-item>
+                <b-dropdown-item>Disques Durs Internes</b-dropdown-item>
+                
               </b-nav-item-dropdown>
             </b-dropdown-item>
           </b-nav-item-dropdown>
@@ -103,42 +188,56 @@
             <b-dropdown-item>
               <b-nav-item-dropdown
                 id="dropdown-2"
-                text="Accessoires de modes"
+                text="Accessoires de Modes"
                 dropright
               >
                 <b-dropdown-item>Bazin</b-dropdown-item>
-                <b-dropdown-item>Meubles & décorations</b-dropdown-item>
+                <b-dropdown-item>Meubles & Décorations</b-dropdown-item>
                 <b-dropdown-item>Rideaux</b-dropdown-item>
-                <b-dropdown-item>Sacs et valises</b-dropdown-item>
+                <b-dropdown-item>Sacs et Valises</b-dropdown-item>
                 <b-dropdown-item>Tissu</b-dropdown-item>
               </b-nav-item-dropdown>
             </b-dropdown-item>
             <b-dropdown-item>
-              <b-nav-item-dropdown id="dropdown-2" text="Mode femme" dropright>
+              <b-nav-item-dropdown id="dropdown-2" text="Mode Femme" dropright>
                 <b-dropdown-item>Chaussures</b-dropdown-item>
                 <b-dropdown-item>Vêtements</b-dropdown-item>
-                <b-dropdown-item>Sacs femme</b-dropdown-item>
-                <b-dropdown-item>Bijoux femme</b-dropdown-item>
+                <b-dropdown-item>Sacs Femme</b-dropdown-item>
+                <b-dropdown-item>Bijoux Femme</b-dropdown-item>
                 <b-dropdown-item>Lingérie</b-dropdown-item>
                 <b-dropdown-item>Wax</b-dropdown-item>
-                <b-dropdown-item>Parfums et déodorants</b-dropdown-item>
+                <b-dropdown-item>Cadeau</b-dropdown-item>
+                <b-dropdown-item>Parfums et Déodorants</b-dropdown-item>
               </b-nav-item-dropdown>
             </b-dropdown-item>
             <b-dropdown-item>
-              <b-nav-item-dropdown id="dropdown-2" text="Mode homme" dropright>
+              <b-nav-item-dropdown id="dropdown-2" text="Mode Homme" dropright>
                 <b-dropdown-item>Chaussures</b-dropdown-item>
                 <b-dropdown-item>Vêtements</b-dropdown-item>
-                <b-dropdown-item>Sacs homme</b-dropdown-item>
-                <b-dropdown-item>Bijoux homme</b-dropdown-item>
-                <b-dropdown-item>Lingérie</b-dropdown-item>
-                <b-dropdown-item>Wax</b-dropdown-item>
-                <b-dropdown-item>Parfums et déodorants</b-dropdown-item>
+                <b-dropdown-item>Sacs Homme</b-dropdown-item>
+                <b-dropdown-item>Bijoux Homme</b-dropdown-item>
+                <b-dropdown-item>Lunettes</b-dropdown-item>
+                <b-dropdown-item>Cravate</b-dropdown-item>
+                <b-dropdown-item>Shorts Hommes</b-dropdown-item>
+                <b-dropdown-item>Parfums et Déodorants</b-dropdown-item>
               </b-nav-item-dropdown>
             </b-dropdown-item>
             <b-dropdown-item>
-              <b-nav-item-dropdown id="dropdown-2" text="Mode enfant" dropright>
+              <b-nav-item-dropdown id="dropdown-2" text="Espace Enfant" dropright>
                 <b-dropdown-item>Vêtements</b-dropdown-item>
                 <b-dropdown-item>Chaussures</b-dropdown-item>
+                <b-dropdown-item>Jeux</b-dropdown-item>
+                <b-dropdown-item>Jouets</b-dropdown-item>
+                <b-dropdown-item>Cadeaux Enfant</b-dropdown-item>
+              </b-nav-item-dropdown>
+            </b-dropdown-item>
+            <b-dropdown-item>
+              <b-nav-item-dropdown id="dropdown-2" text="Montres & Bracelets" dropright>
+                <b-dropdown-item>Bracelets</b-dropdown-item>
+                <b-dropdown-item>Emballage Cadeau</b-dropdown-item>
+                <b-dropdown-item>Montres Femmes</b-dropdown-item>
+                <b-dropdown-item>Montres Hommes</b-dropdown-item>
+                <b-dropdown-item>Smart Watch</b-dropdown-item>
               </b-nav-item-dropdown>
             </b-dropdown-item>
           </b-nav-item-dropdown>

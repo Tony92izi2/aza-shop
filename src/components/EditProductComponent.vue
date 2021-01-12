@@ -20,9 +20,7 @@
           <optgroup label="Nos catégories">
             <option value="Mode">Mode</option>
             <option value="Informatique">Informatique</option>
-            <option value="Téléphones et tablettes">
-              Téléphones et tablettes
-            </option>
+            <option value="Téléphones et Gadgets">Téléphones & Gadgets</option>
             <option value="Alimentation">Alimentation</option>
             <option value="Electroménagers">Electroménagers</option>
             <option value="Meuble Déco">Meuble Déco</option>
@@ -177,34 +175,14 @@ export default {
       imageOld2: null,
       imageOld3: null,
       categories: {
-        Informatique: [
-          "Composants-Périphériques",
-          "Impression-Bureautique",
-          "Stockage-Réseau",
-        ],
+        Informatique: ["Composants-Périphériques","Impression-Bureautique","Stockage-Réseau",],
         Mode: ["Accessoire de mode", "Mode femme", "Mode homme", "Mode enfant"],
-        "Meuble Déco": [
-          "Meuble Déco",
-          "Armoires",
-          "Bureau & Rangement",
-          "Canapés",
-          "Coiffeuses",
-          "Décoration",
-          "Lits",
-          "Luminaires",
-          "Tables",
-          "Tapis",
-        ],
+        "Meuble Déco": ["Meuble Déco","Armoires",
+          "Bureau & Rangement","Canapés","Coiffeuses","Décoration","Lits","Luminaires","Tables","Tapis",],
         Alimentation: [
-          "Boisson eau et jus",
-          "Boites de conserve",
-          "Charcuterie",
-          "Epices-Condiments-Assaisonnements",
-          "Lait-Sucre",
-          "Riz-Pâtes",
-          "Santé & Beauté",
-        ],
-        "Téléphones et tablettes": ["Téléphone portable", "Tablette"],
+          "Boisson eau et jus","Boites de conserve",
+          "Charcuterie","Epices-Condiments-Assaisonnements","Lait-Sucre","Riz-Pâtes","Santé & Beauté",],
+        "Téléphones et Gadgets": ["Téléphones,", "Tablettes","Ecouteurs et Casques",],
       },
     };
   },
