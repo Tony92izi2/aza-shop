@@ -1,7 +1,7 @@
 <template>
-  <div class="hello">
+  <div class="Bonjour">
     <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-      <a class="navbar-brand" href="#">Azarmet</a>
+      <a class="navbar-brand" href="#">Azamarket</a>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
